@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <context:component-scan base-package="com.service"></context:component-scan>
+    <context:annotation-config></context:annotation-config>
+    <!--测试bean scope 及生命周期-->
+    <bean id="ss" class="staticproxy.impl.DogDaoImpl" scope="prototype"  destroy-method="sleep"  init-method="production" lazy-init="true"></bean>
+<!--测试注入-->
+
+<!--    学生类-->
+<!--    set注入-->
+<!--    <bean id="student" class="ioc.di.Student">-->
+<!--        <property name="username" value="bobo"></property>-->
+<!--        <property name="age" value="10"></property>-->
+<!--        <property name="phone" ref="phone"></property>-->
+<!--    </bean>-->
+<!--    构造方法注入 要求被注入对象有一个带注入参数的构造方法-->
+<!--    <bean id="student" class="ioc.di.Student">
+        <property name="username" value="bobo"></property>
+        <property name="age" value="20"></property>
+        <constructor-arg ref="phone"></constructor-arg>
+    </bean>-->
+        <!--    bean自动装配  autowire 根据属性类型自动装配-->
+    <bean id="student" class="ioc.di.Student" autowire="byType">
+    <property name="username" value="bobo"></property>
+    <property name="age" value="20"></property>
+    </bean>
+
+
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+
+        <!--    手机类-->
+    <bean id="phone111" class="ioc.di.Phone">
+        <property name="name" value="小米"></property>
+        <property name="money" value="4000"></property>
+        <property name="type" value="小米10"></property>
+    </bean>
+
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="datasource"></property>
+    </bean>
+
+
+<!--    事务通知-->
+    <tx:advice id="txAdive" transaction-manager="transactionManager">
+        <tx:attributes>
+        <tx:method name="search*" propagation="REQUIRED" read-only="true" />
+        <tx:method name="del*" propagation="REQUIRED" />
+        <tx:method name="update*" propagation="REQUIRED" />
+        <tx:method name="save*" propagation="REQUIRED" />
+        </tx:attributes>
+    </tx:advice>
+
+
+<!--定义通知bean-->
+
+    <tx:annotation-driven transaction-manager="transactionManager"	proxy-target-class="true" />
+    <aop:config>
+        <aop:pointcut id="pointcut" expression="execution(public * com.service.impl.*.*(..))"/>
+<!--        <aop:aspect id ="logcut" ref="adivce">-->
+<!--            &lt;!&ndash;        配置切入点&ndash;&gt;-->
+<!--&lt;!&ndash;            <aop:before method="before" pointcut-ref="pointcut"></aop:before>&ndash;&gt;-->
+<!--            <aop:around method="around" pointcut-ref="pointcut"></aop:around>-->
+<!--&lt;!&ndash;            <aop:after method="after" pointcut-ref="pointcut"></aop:after>&ndash;&gt;-->
+<!--        </aop:aspect>-->
+        <aop:advisor advice-ref="txAdive" pointcut-ref="pointcut"></aop:advisor>
+    </aop:config>
+
+
+
+</beans>

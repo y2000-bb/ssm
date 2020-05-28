@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dao.UserDao">
+
+    <select id="queryAll" resultType="com.entity.User">
+        select * from user
+    </select>
+
+    <insert id="save" parameterType="com.entity.User">
+        insert into user values(
+        #{name},#{age},#{id},#{orderNumber},
+        case when #{sex} = "1" then "男"
+        when #{sex} = "2" then "女"
+        when #{sex} = "3" then "中性"
+        end
+        )
+    </insert>
+</mapper>
