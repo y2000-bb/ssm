@@ -1,10 +1,13 @@
 package aopandinterface;
 
-import java.lang.annotation.Documented;
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Target;
+import java.lang.annotation.*;
 
 @Documented
 @Target({ElementType.METHOD,ElementType.TYPE})
+@Retention(RetentionPolicy.RUNTIME)
 public @interface MyFirstAnnotation {
+
+    String value() default "隔壁老王";
+
+
 }

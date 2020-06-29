@@ -1,4 +1,4 @@
 jdbc.driver=com.mysql.jdbc.Driver
-jdbc.url=jdbc:mysql://localhost:3307/jeecg?useUnicode=true&characterEncoding=utf8
+jdbc.url=jdbc:mysql://182.92.201.5:3306/jeecg?useUnicode=true&characterEncoding=utf8
 jdbc.username=root
-jdbc.password=rootroot
+jdbc.password=rootadmin

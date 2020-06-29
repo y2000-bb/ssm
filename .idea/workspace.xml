@@ -6,7 +6,94 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a2b6e60-1ae2-444e-993a-246ff8325c42" name="Default Changelist" comment="" />
+    <list default="true" id="0a2b6e60-1ae2-444e-993a-246ff8325c42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/XoaMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/src/com/dao/XoaArchivesDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/src/com/entity/XoaArchives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/src/com/service/ArchivesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/src/com/service/impl/ArchivesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/src/genericparadigm/entity/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/src/genericparadigm/entity/IDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/src/genericparadigm/inter/TestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/src/genericparadigm/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/src/lambda/lambdashixian/TestLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/src/lambda/nimingleibulei/HeroChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/src/lambda/nimingleibulei/TestLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/src/lambda/putongfangfa/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/Mainsfsf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/Mainsfsf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/aopandinterface/MyFirstAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/aopandinterface/MyFirstAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/aspect/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/aspect/TestAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/aspect/TestAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/com/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/com/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/controller/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/controller/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/ioc/di/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/ioc/di/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Mainsfsf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Mainsfsf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aopandinterface/MyFirstAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aopandinterface/MyFirstAnnotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aspect/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aspect/TestAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aspect/TestAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/TestHello.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/TestHello.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ioc/di/Phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ioc/di/Phone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ioc/di/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ioc/di/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ioc/di/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ioc/di/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/listneer/ContextListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/listneer/ContextListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/staticproxy/PetDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/staticproxy/PetDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/staticproxy/impl/DogDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/staticproxy/impl/DogDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/staticproxy/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/staticproxy/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/staticproxy/testproxy/TestStaticProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/staticproxy/testproxy/TestStaticProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testproxy/PetDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testproxy/PetDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testproxy/TestStaticProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testproxy/TestStaticProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testproxy/impl/DogDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testproxy/impl/DogDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testproxy/impl/DogDaoProxyImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testproxy/impl/DogDaoProxyImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/Mainsfsf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/Mainsfsf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/aopandinterface/MyFirstAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/aopandinterface/MyFirstAnnotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/aspect/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/aspect/TestAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/aspect/TestAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/com/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/com/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/com/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/com/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/com/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/com/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/com/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/com/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/com/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/com/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/com/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/com/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/controller/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/controller/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/controller/TestHello.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/controller/TestHello.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/ioc/di/Phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/ioc/di/Phone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/ioc/di/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/ioc/di/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/ioc/di/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/ioc/di/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/jdbc" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/jdbc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/listneer/ContextListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/listneer/ContextListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/staticproxy/PetDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/staticproxy/PetDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/staticproxy/impl/DogDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/staticproxy/impl/DogDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/staticproxy/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/staticproxy/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/staticproxy/testproxy/TestStaticProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/staticproxy/testproxy/TestStaticProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/testproxy/PetDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/testproxy/PetDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/testproxy/TestStaticProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/testproxy/TestStaticProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/testproxy/impl/DogDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/testproxy/impl/DogDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/testproxy/impl/DogDaoProxyImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/classes/testproxy/impl/DogDaoProxyImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.37.jar" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +117,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -50,26 +140,29 @@
     </option>
   </component>
   <component name="ProjectId" id="1c7IWrPB2DiUabiiXMK0vCohJ3v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ssmtest" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.14746094" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dao" />
+      <recent name="com.entity" />
+      <recent name="com.controller" />
       <recent name="testproxy" />
       <recent name="staticproxydao.testproxy" />
-      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\projectcode\test\src\main\src" />
@@ -91,19 +184,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.34">
-    <configuration name="Mainsfsf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mainsfsf" />
-      <module name="test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aspect.Test" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="genericparadigm.test.Test" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aspect.*" />
+          <option name="PATTERN" value="genericparadigm.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +197,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ioc.di.Test" />
+    <configuration name="TestLambda (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.nimingleibulei.TestLambda" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ioc.di.*" />
+          <option name="PATTERN" value="lambda.nimingleibulei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +210,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStaticProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testproxy.TestStaticProxy" />
+    <configuration name="TestLambda (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambdashixian.TestLambda" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testproxy.*" />
+          <option name="PATTERN" value="lambda.lambdashixian.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.putongfangfa.TestLambda" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.putongfangfa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStaticProxy (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="staticproxy.testproxy.TestStaticProxy" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="staticproxy.testproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,18 +324,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestStaticProxy" />
-      <item itemvalue="Application.Mainsfsf" />
-      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.TestStaticProxy (1)" />
+      <item itemvalue="Application.Test (2)" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.34" />
-      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.TestLambda" />
+      <item itemvalue="Application.TestLambda (1)" />
+      <item itemvalue="Application.TestLambda (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Mainsfsf" />
-        <item itemvalue="Application.TestStaticProxy" />
+        <item itemvalue="Application.TestLambda (2)" />
+        <item itemvalue="Application.TestLambda" />
+        <item itemvalue="Application.TestLambda (1)" />
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.TestStaticProxy (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -242,20 +356,46 @@
       <workItem from="1590489654456" duration="61000" />
       <workItem from="1590540468913" duration="11249000" />
       <workItem from="1590626381438" duration="974000" />
-      <workItem from="1590627397897" duration="27314000" />
+      <workItem from="1590627397897" duration="28127000" />
+      <workItem from="1590811955174" duration="794000" />
+      <workItem from="1590971896796" duration="8540000" />
+      <workItem from="1591058728699" duration="2457000" />
+      <workItem from="1591144920859" duration="803000" />
+      <workItem from="1592374677004" duration="3278000" />
+      <workItem from="1592465219677" duration="379000" />
+      <workItem from="1592468444846" duration="7689000" />
+      <workItem from="1592529184119" duration="2317000" />
+      <workItem from="1592614284310" duration="565000" />
+      <workItem from="1592640551310" duration="697000" />
+      <workItem from="1592794110187" duration="146000" />
+      <workItem from="1592984863044" duration="2175000" />
+      <workItem from="1593402018374" duration="16458000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/src/controller/HelloWorld.java</url>
-          <line>13</line>
-          <properties class="controller.HelloWorld">
+          <line>10</line>
+          <properties class="controller.HelloWorld" method="helloWorldHandler">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
@@ -266,24 +406,39 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/src/com/controller/UserController.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/src/com/controller/UserController.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/src/com/controller/UserController.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/src/com/service/impl/UserServiceImpl.java</url>
-          <line>16</line>
+          <line>18</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/src/genericparadigm/test/Test.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/src/genericparadigm/test/Test.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/src/com/controller/UserController.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/src/com/controller/Archivescontroller.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/src/com/service/impl/ArchivesServiceImpl.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/src/com/controller/Archivescontroller.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,5 +1,6 @@
 package com.service.impl;
 
+import aopandinterface.MyFirstAnnotation;
 import com.dao.UserDao;
 import com.entity.User;
 import com.service.UserService;
@@ -13,6 +14,7 @@ public class UserServiceImpl implements UserService{
     @Autowired
     private UserDao userDao;
 
+    @MyFirstAnnotation
     public Integer saveUser(User user) {
         int i = userDao.save(user);
         int number = 1/0;

@@ -1,3 +1,5 @@
+import aspect.TestAspect;
+import com.controller.UserController;
 import org.springframework.beans.factory.xml.XmlBeanFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -20,6 +22,7 @@ public class Mainsfsf {
         XmlBeanFactory xmlBeanFactory = new XmlBeanFactory(new ClassPathResource("applicationContext.xml"));
         DogDaoImpl dpg2 = (DogDaoImpl) xmlBeanFactory.getBean("ss");
         System.out.println(dpg2.toString());
+
 
 
     }

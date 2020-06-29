@@ -4,16 +4,20 @@
        xmlns:aop="http://www.springframework.org/schema/aop"
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:cache="http://www.springframework.org/schema/cache"
+       xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/aop
         http://www.springframework.org/schema/aop/spring-aop.xsd
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd
-        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/cache
+     http://www.springframework.org/schema/cache/spring-cache.xsd">
 
     <context:component-scan base-package="com.service"></context:component-scan>
-    <context:annotation-config></context:annotation-config>
+
+
     <!--测试bean scope 及生命周期-->
     <bean id="ss" class="staticproxy.impl.DogDaoImpl" scope="prototype"  destroy-method="sleep"  init-method="production" lazy-init="true"></bean>
 <!--测试注入-->
@@ -51,6 +55,8 @@
         <property name="dataSource" ref="datasource"></property>
     </bean>
 
+    <context:component-scan base-package="aspect"></context:component-scan>
+    <context:annotation-config></context:annotation-config>
 
 <!--    事务通知-->
     <tx:advice id="txAdive" transaction-manager="transactionManager">
@@ -65,17 +71,33 @@
 
 <!--定义通知bean-->
 
+<!--    支持事务注解   指定了使用的事务管理器-->
     <tx:annotation-driven transaction-manager="transactionManager"	proxy-target-class="true" />
-    <aop:config>
-        <aop:pointcut id="pointcut" expression="execution(public * com.service.impl.*.*(..))"/>
-<!--        <aop:aspect id ="logcut" ref="adivce">-->
-<!--            &lt;!&ndash;        配置切入点&ndash;&gt;-->
-<!--&lt;!&ndash;            <aop:before method="before" pointcut-ref="pointcut"></aop:before>&ndash;&gt;-->
-<!--            <aop:around method="around" pointcut-ref="pointcut"></aop:around>-->
-<!--&lt;!&ndash;            <aop:after method="after" pointcut-ref="pointcut"></aop:after>&ndash;&gt;-->
-<!--        </aop:aspect>-->
-        <aop:advisor advice-ref="txAdive" pointcut-ref="pointcut"></aop:advisor>
-    </aop:config>
+    <cache:annotation-driven />
+
+    <bean id="cacheManager" class="org.springframework.cache.support.SimpleCacheManager">
+
+        <property name="caches">
+
+            <set>
+
+                <bean class="org.springframework.cache.concurrent.ConcurrentMapCacheFactoryBean" p:name="xxx"/>
+
+            </set>
+
+        </property>
+
+    </bean>
+<!--    <aop:config>-->
+<!--        <aop:pointcut id="pointcut" expression="execution(public * com.service.impl.*.*(..))"/>-->
+<!--&lt;!&ndash;        <aop:aspect id ="logcut" ref="adivce">&ndash;&gt;-->
+<!--&lt;!&ndash;            &lt;!&ndash;        配置切入点&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            <aop:before method="before" pointcut-ref="pointcut"></aop:before>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;            <aop:around method="around" pointcut-ref="pointcut"></aop:around>&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            <aop:after method="after" pointcut-ref="pointcut"></aop:after>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        </aop:aspect>&ndash;&gt;-->
+<!--        <aop:advisor advice-ref="txAdive" pointcut-ref="pointcut"></aop:advisor>-->
+<!--    </aop:config>-->
 
 
 
