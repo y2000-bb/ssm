@@ -103,9 +103,6 @@
   <component name="CoverageViewManager">
     <option name="myElementSize" value="116" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="test" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -326,10 +323,10 @@
     <list>
       <item itemvalue="Application.TestStaticProxy (1)" />
       <item itemvalue="Application.Test (2)" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.34" />
       <item itemvalue="Application.TestLambda" />
       <item itemvalue="Application.TestLambda (1)" />
       <item itemvalue="Application.TestLambda (2)" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.34" />
     </list>
     <recent_temporary>
       <list>
@@ -442,10 +439,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/test$Test__1_.ic" NAME="Test (1) Coverage Results" MODIFIED="1590633212983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>aspect.*</FILTER>
-    </SUITE>
   </component>
 </project>
